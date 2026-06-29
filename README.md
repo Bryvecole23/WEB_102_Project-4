@@ -1,16 +1,28 @@
-# React + Vite
+# Web Development Project 4 - Veni Vici!
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Submitted by: **Bryce Alexander**
 
-Currently, two official plugins are available:
+This web app is a random discovery tool that lets users explore Rick and Morty characters through API-generated results. Each click of the Discover button fetches a new random character, displaying their image and attributes (species, status, and gender). Users can add attributes to a ban list, which prevents future results from showing those traits. The app also includes a history section that tracks previously viewed characters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Time spent: **10–12 hours**
 
-## React Compiler
+## Required Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [x] Application features a button that creates a new API fetch request on click and displays at least three attributes and an image obtained from the returned JSON data
+- [x] Only one item/data from API call response is viewable at a time and at least one image is displayed per API call
+- [x] API call response results appear random to the user
+- [x] Clicking on a displayed value adds it to a ban list
+- [x] Attributes on the ban list prevent further results with that attribute
 
-## Expanding the Oxlint configuration
+## Optional Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- [x] Multiple clickable attributes added to ban list
+- [x] History of previously viewed results
+
+## Notes
+
+Built using React + Vite and the Rick and Morty API.
+
+## License
+
+Copyright 2026 Bryce Alexander
